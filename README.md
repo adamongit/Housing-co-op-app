@@ -1,4 +1,4 @@
-Co-op-Apps
+Housing Co-op-App
 ==========
 
-Applications useful to various co-operatives
+An application intended to provide functionality useful to housing co-operatives

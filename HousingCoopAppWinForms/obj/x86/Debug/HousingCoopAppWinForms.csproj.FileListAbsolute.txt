@@ -1,0 +1,17 @@
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\HousingCoopAppWinForms\bin\Debug\HousingCoopAppWinForms.exe
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\HousingCoopAppWinForms\bin\Debug\HousingCoopAppWinForms.pdb
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\HousingCoopAppWinForms\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\HousingCoopAppWinForms\obj\x86\Debug\HousingCoopAppWinForms.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\HousingCoopAppWinForms\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\HousingCoopAppWinForms\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\HousingCoopAppWinForms\obj\x86\Debug\HousingCoopAppWinForms.exe
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\HousingCoopAppWinForms\obj\x86\Debug\HousingCoopAppWinForms.pdb
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\HousingCoopAppWinForms\obj\x86\Debug\HousingCoopAppWinForms.MainForm.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\HousingCoopApp\HousingCoopAppWinForms\bin\Debug\BusinessObjects.dll
+C:\Users\Admin\documents\visual studio 2010\Projects\HousingCoopApp\HousingCoopAppWinForms\bin\Debug\BusinessObjects.pdb
+C:\Users\Admin\documents\visual studio 2010\Projects\HousingCoopApp\HousingCoopAppWinForms\obj\x86\Debug\HousingCoopAppWinForms.MeetingForm.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\HousingCoopApp\HousingCoopAppWinForms\bin\Debug\DataAccessLayer.dll
+C:\Users\Admin\documents\visual studio 2010\Projects\HousingCoopApp\HousingCoopAppWinForms\bin\Debug\Interfaces.dll
+C:\Users\Admin\documents\visual studio 2010\Projects\HousingCoopApp\HousingCoopAppWinForms\bin\Debug\DataAccessLayer.pdb
+C:\Users\Admin\documents\visual studio 2010\Projects\HousingCoopApp\HousingCoopAppWinForms\bin\Debug\Interfaces.pdb
+C:\Users\Admin\documents\visual studio 2010\Projects\HousingCoopApp\HousingCoopAppWinForms\bin\Debug\HousingCoopAppWinForms.exe.config

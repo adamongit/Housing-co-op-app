@@ -1,0 +1,9 @@
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\BusinessObjects\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\BusinessObjects\bin\Debug\BusinessObjects.dll
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\BusinessObjects\bin\Debug\BusinessObjects.pdb
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\BusinessObjects\obj\Debug\BusinessObjects.dll
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\BusinessObjects\obj\Debug\BusinessObjects.pdb
+C:\Users\Admin\documents\visual studio 2010\Projects\HousingCoopApp\BusinessObjects\bin\Debug\DataAccessLayer.dll
+C:\Users\Admin\documents\visual studio 2010\Projects\HousingCoopApp\BusinessObjects\bin\Debug\Interfaces.dll
+C:\Users\Admin\documents\visual studio 2010\Projects\HousingCoopApp\BusinessObjects\bin\Debug\DataAccessLayer.pdb
+C:\Users\Admin\documents\visual studio 2010\Projects\HousingCoopApp\BusinessObjects\bin\Debug\Interfaces.pdb

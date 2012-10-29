@@ -1,0 +1,13 @@
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\HousingCoopApp\bin\Debug\HousingCoopApp.exe
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\HousingCoopApp\bin\Debug\HousingCoopApp.pdb
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\HousingCoopApp\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\HousingCoopApp\obj\x86\Debug\MainWindow.baml
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\HousingCoopApp\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\HousingCoopApp\obj\x86\Debug\App.g.cs
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\HousingCoopApp\obj\x86\Debug\HousingCoopApp_MarkupCompile.cache
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\HousingCoopApp\obj\x86\Debug\HousingCoopApp.g.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\HousingCoopApp\obj\x86\Debug\HousingCoopApp.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\HousingCoopApp\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\HousingCoopApp\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\HousingCoopApp\obj\x86\Debug\HousingCoopApp.exe
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\HousingCoopApp\obj\x86\Debug\HousingCoopApp.pdb

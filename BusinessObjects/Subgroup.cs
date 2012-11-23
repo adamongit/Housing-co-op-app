@@ -16,7 +16,8 @@ namespace BusinessObjects
         /// <value>
         /// The id.
         /// </value>
-        [Column(IsPrimaryKey=true)]
+        [Column(IsPrimaryKey = true, IsDbGenerated = true, Name = "id", AutoSync = AutoSync.OnInsert,
+            DbType = "INT NOT NULL IDENTITY")]
         public int Id { get; set; }
         /// <summary>
         /// Gets or sets the name.

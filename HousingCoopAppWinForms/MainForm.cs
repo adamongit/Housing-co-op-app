@@ -34,5 +34,12 @@ namespace HousingCoopAppWinForms
             mf.ShowDialog();
         }
 
+        private void newToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SubgroupForm sf = new SubgroupForm();
+            sf.Owner = this;
+            sf.ShowDialog();
+        }
+
     }
 }

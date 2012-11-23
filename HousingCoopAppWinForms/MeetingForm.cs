@@ -14,6 +14,9 @@ namespace HousingCoopAppWinForms
 {
     public partial class MeetingForm : Form
     {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="MeetingForm" /> class.
+        /// </summary>
         public MeetingForm()
         {
             InitializeComponent();
@@ -137,31 +140,13 @@ namespace HousingCoopAppWinForms
             SubGroupDataContext sgdc = new SubGroupDataContext(
                 ConfigurationManager.ConnectionStrings["hamwicConnectionString"].ConnectionString);
 
-            var subgroups = from s in sgdc.Customers select s;
+            var subgroups = from s in sgdc.Subgroups select s;
 
             cbSubgroup.DataSource = subgroups;
             cbSubgroup.DisplayMember = "Name";
             cbSubgroup.ValueMember = "Id"; 
         }
 
-        /// <summary>
-        /// Handles the ValueChanged event of the dtpFrom control.
-        /// </summary>
-        /// <param name="sender">The source of the event.</param>
-        /// <param name="e">The <see cref="EventArgs" /> instance containing the event data.</param>
-        private void dtpFrom_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        /// <summary>
-        /// Handles the ValueChanged event of the dtpTo control.
-        /// </summary>
-        /// <param name="sender">The source of the event.</param>
-        /// <param name="e">The <see cref="EventArgs" /> instance containing the event data.</param>
-        private void dtpTo_ValueChanged(object sender, EventArgs e)
-        {
-            
-        }
+      
     }
 }

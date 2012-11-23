@@ -57,15 +57,5 @@ namespace BusinessObjects
         /// </value>
         [Column]
         public DateTime DateTimeTo { get; set; }
-
-
-        /// <summary>
-        /// Saves this instance.
-        /// </summary>
-        public void Save()
-        {
-            
-
-        }
     }
 }

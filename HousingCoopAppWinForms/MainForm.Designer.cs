@@ -34,6 +34,8 @@
             this.meetingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newMeetingMenutClick = new System.Windows.Forms.ToolStripMenuItem();
             this.contractorsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.subgroupsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.msMainMenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -42,7 +44,8 @@
             this.msMainMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.meetingsToolStripMenuItem,
-            this.contractorsToolStripMenuItem});
+            this.contractorsToolStripMenuItem,
+            this.subgroupsToolStripMenuItem});
             this.msMainMenuStrip.Location = new System.Drawing.Point(0, 0);
             this.msMainMenuStrip.Name = "msMainMenuStrip";
             this.msMainMenuStrip.Size = new System.Drawing.Size(820, 24);
@@ -74,7 +77,7 @@
             // newMeetingMenutClick
             // 
             this.newMeetingMenutClick.Name = "newMeetingMenutClick";
-            this.newMeetingMenutClick.Size = new System.Drawing.Size(152, 22);
+            this.newMeetingMenutClick.Size = new System.Drawing.Size(98, 22);
             this.newMeetingMenutClick.Text = "New";
             this.newMeetingMenutClick.Click += new System.EventHandler(this.newMeetingMenuClick_Click);
             // 
@@ -83,6 +86,21 @@
             this.contractorsToolStripMenuItem.Name = "contractorsToolStripMenuItem";
             this.contractorsToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
             this.contractorsToolStripMenuItem.Text = "Contractors";
+            // 
+            // subgroupsToolStripMenuItem
+            // 
+            this.subgroupsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.newToolStripMenuItem});
+            this.subgroupsToolStripMenuItem.Name = "subgroupsToolStripMenuItem";
+            this.subgroupsToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
+            this.subgroupsToolStripMenuItem.Text = "Subgroups";
+            // 
+            // newToolStripMenuItem
+            // 
+            this.newToolStripMenuItem.Name = "newToolStripMenuItem";
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.newToolStripMenuItem.Text = "New";
+            this.newToolStripMenuItem.Click += new System.EventHandler(this.newToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -109,6 +127,8 @@
         private System.Windows.Forms.ToolStripMenuItem meetingsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem newMeetingMenutClick;
         private System.Windows.Forms.ToolStripMenuItem contractorsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem subgroupsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem newToolStripMenuItem;
     }
 }
 

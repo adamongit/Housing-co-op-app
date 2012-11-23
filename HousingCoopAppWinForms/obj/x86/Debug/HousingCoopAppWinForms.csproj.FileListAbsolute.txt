@@ -13,3 +13,4 @@ C:\Users\Admin\documents\visual studio 2010\Projects\HousingCoopApp\HousingCoopA
 C:\Users\Admin\documents\visual studio 2010\Projects\HousingCoopApp\HousingCoopAppWinForms\bin\Debug\DataAccessLayer.dll
 C:\Users\Admin\documents\visual studio 2010\Projects\HousingCoopApp\HousingCoopAppWinForms\bin\Debug\DataAccessLayer.pdb
 C:\Users\Admin\documents\visual studio 2010\Projects\HousingCoopApp\HousingCoopAppWinForms\bin\Debug\HousingCoopAppWinForms.exe.config
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\HousingCoopAppWinForms\obj\x86\Debug\HousingCoopAppWinForms.SubgroupForm.resources

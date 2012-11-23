@@ -15,7 +15,7 @@ namespace DataAccessLayer
             
         }
 
-        public Table<Subgroup> Customers;
+        public Table<Subgroup> Subgroups;
 
     }
 }

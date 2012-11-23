@@ -85,7 +85,6 @@
             this.dtpTimeFrom.ShowUpDown = true;
             this.dtpTimeFrom.Size = new System.Drawing.Size(67, 20);
             this.dtpTimeFrom.TabIndex = 4;
-            this.dtpTimeFrom.ValueChanged += new System.EventHandler(this.dtpFrom_ValueChanged);
             // 
             // dtpTimeTo
             // 
@@ -95,7 +94,6 @@
             this.dtpTimeTo.ShowUpDown = true;
             this.dtpTimeTo.Size = new System.Drawing.Size(67, 20);
             this.dtpTimeTo.TabIndex = 5;
-            this.dtpTimeTo.ValueChanged += new System.EventHandler(this.dtpTo_ValueChanged);
             // 
             // btnCancel
             // 

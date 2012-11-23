@@ -5,3 +5,6 @@ C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\DataAccessLa
 C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
 C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\DataAccessLayer\bin\Debug\Interfaces.dll
 C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\DataAccessLayer\bin\Debug\Interfaces.pdb
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\DataAccessLayer\bin\Debug\BusinessObjects.dll
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\HousingCoopApp\DataAccessLayer\bin\Debug\BusinessObjects.pdb

@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Data.Linq.Mapping;
 
 namespace BusinessObjects
 {
     /// <summary>
     /// Class representing the Member db object
     /// </summary>
+    [Table(Name = "Member")]
     public class Member 
     {
         /// <summary>

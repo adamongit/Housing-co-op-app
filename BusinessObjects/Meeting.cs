@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Data.Linq.Mapping;
 
 namespace BusinessObjects
 {
     /// <summary>
     /// Class representing the Meeting db object.
     /// </summary>
+    [Table(Name = "Meeting")]
     public class Meeting
     {
         /// <summary>
@@ -16,6 +18,8 @@ namespace BusinessObjects
         /// <value>
         /// The id.
         /// </value>
+        [Column(IsPrimaryKey=true, IsDbGenerated=true, Name="id", AutoSync=AutoSync.OnInsert,
+            DbType="INT NOT NULL IDENTITY")]
         public int Id { get; set; }
 
         /// <summary>
@@ -24,7 +28,8 @@ namespace BusinessObjects
         /// <value>
         /// The sub group id.
         /// </value>
-        public int SubGroupId { get; private set; }
+        [Column]
+        public int SubGroupId { get; set; }
 
         /// <summary>
         /// Gets the location.
@@ -32,7 +37,8 @@ namespace BusinessObjects
         /// <value>
         /// The location.
         /// </value>
-        public String Location { get; set; }
+        [Column(Name="Location")]
+        public String Location_ { get; set; }
 
         /// <summary>
         /// Gets the date time from.
@@ -40,6 +46,7 @@ namespace BusinessObjects
         /// <value>
         /// The date time from.
         /// </value>
+        [Column]
         public DateTime DateTimeFrom { get; set; }
 
         /// <summary>
@@ -48,9 +55,17 @@ namespace BusinessObjects
         /// <value>
         /// The date time to.
         /// </value>
+        [Column]
         public DateTime DateTimeTo { get; set; }
 
 
+        /// <summary>
+        /// Saves this instance.
+        /// </summary>
+        public void Save()
+        {
+            
 
+        }
     }
 }

@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using BusinessObjects;
+using DataAccessLayer;
+using System.Configuration;
 
 namespace HousingCoopAppWinForms
 {
@@ -45,10 +47,36 @@ namespace HousingCoopAppWinForms
             }
             else
             {
-                // TODO
-                Meeting newMeeting = new Meeting();
-                newMeeting.DateTimeFrom = this.dtpTimeFrom.Value;
-                newMeeting.DateTimeTo = this.dtpTimeTo.Value;
+                MeetingDataContext mdc = new MeetingDataContext(
+                    ConfigurationManager.ConnectionStrings["hamwicConnectionString"].ConnectionString);
+
+                Meeting newMeeting = new Meeting
+                {
+                    DateTimeFrom = this.dtpTimeFrom.Value,
+                    DateTimeTo = this.dtpTimeTo.Value,
+                    Location_ = this.txtLocation.Text,
+                    SubGroupId = (cbSubgroup.SelectedItem as Subgroup).Id
+                };
+
+                mdc.Meetings.InsertOnSubmit(newMeeting);
+                
+                try
+                {
+                    mdc.SubmitChanges();
+
+                    MessageBox.Show("Changes saved successfully",
+                        "The database has been updated.",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Information);
+                    this.Close();
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("Failed to save Changes",
+                        "Problem committing to database",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error);
+                }
             }
         }
 
@@ -106,9 +134,14 @@ namespace HousingCoopAppWinForms
         /// <param name="e">The <see cref="EventArgs" /> instance containing the event data.</param>
         private void MeetingForm_Load(object sender, EventArgs e)
         {
-            cbSubgroup.DataSource = new BindingSource(Subgroup.GetAll(),null);
-            cbSubgroup.DisplayMember = "Value";
-            cbSubgroup.ValueMember = "Key"; 
+            SubGroupDataContext sgdc = new SubGroupDataContext(
+                ConfigurationManager.ConnectionStrings["hamwicConnectionString"].ConnectionString);
+
+            var subgroups = from s in sgdc.Customers select s;
+
+            cbSubgroup.DataSource = subgroups;
+            cbSubgroup.DisplayMember = "Name";
+            cbSubgroup.ValueMember = "Id"; 
         }
 
         /// <summary>

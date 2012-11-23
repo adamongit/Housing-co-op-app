@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using DataAccessLayer;
+using Interfaces;
+using System.Data.Linq.Mapping;
 
 namespace BusinessObjects 
 {
+    [Table(Name = "SubGroup")]
     public class Subgroup
     {
         /// <summary>
@@ -14,6 +16,7 @@ namespace BusinessObjects
         /// <value>
         /// The id.
         /// </value>
+        [Column(IsPrimaryKey=true)]
         public int Id { get; set; }
         /// <summary>
         /// Gets or sets the name.
@@ -21,23 +24,9 @@ namespace BusinessObjects
         /// <value>
         /// The name.
         /// </value>
+        [Column]
         public String Name { get; set; }
 
-        /// <summary>
-        /// Gets all subgroups from the db
-        /// </summary>
-        /// <returns></returns>
-        public static Dictionary<int, String> GetAll()
-        {
-            DataBaseAccessor dba = new DataBaseAccessor(typeof(Subgroup));
-            Dictionary<int, String> dic = new Dictionary<int, String>();
-
-            foreach (System.Data.DataRow dr in dba.AccessorDataSet.Tables[0].Rows)
-            {
-                dic.Add((int)dr[0], dr[1].ToString());
-            }
-
-            return dic;
-        }
+       
     }
 }

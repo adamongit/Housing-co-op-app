@@ -36,6 +36,7 @@
             this.contractorsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.subgroupsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.newToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.msMainMenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -83,6 +84,8 @@
             // 
             // contractorsToolStripMenuItem
             // 
+            this.contractorsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.newToolStripMenuItem1});
             this.contractorsToolStripMenuItem.Name = "contractorsToolStripMenuItem";
             this.contractorsToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
             this.contractorsToolStripMenuItem.Text = "Contractors";
@@ -98,9 +101,16 @@
             // newToolStripMenuItem
             // 
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
             this.newToolStripMenuItem.Text = "New";
             this.newToolStripMenuItem.Click += new System.EventHandler(this.newToolStripMenuItem_Click);
+            // 
+            // newToolStripMenuItem1
+            // 
+            this.newToolStripMenuItem1.Name = "newToolStripMenuItem1";
+            this.newToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.newToolStripMenuItem1.Text = "New";
+            this.newToolStripMenuItem1.Click += new System.EventHandler(this.newToolStripMenuItem1_Click);
             // 
             // MainForm
             // 
@@ -129,6 +139,7 @@
         private System.Windows.Forms.ToolStripMenuItem contractorsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem subgroupsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem newToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem newToolStripMenuItem1;
     }
 }
 

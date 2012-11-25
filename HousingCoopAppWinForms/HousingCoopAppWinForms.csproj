@@ -48,6 +48,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContractorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContractorForm.Designer.cs">
+      <DependentUpon>ContractorForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +74,9 @@
     <Compile Include="SubgroupForm.Designer.cs">
       <DependentUpon>SubgroupForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ContractorForm.resx">
+      <DependentUpon>ContractorForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>

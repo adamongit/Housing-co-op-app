@@ -41,5 +41,21 @@ namespace HousingCoopAppWinForms
             sf.ShowDialog();
         }
 
+        private void newToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            ContractorForm cf = new ContractorForm(WindowOpenState.New);
+            cf.Owner = this;
+            cf.ShowDialog();
+        }
+    }
+
+    /// <summary>
+    /// Enum representing window state.
+    /// </summary>
+    public enum WindowOpenState
+    {
+        New,
+        Edit,
+        View
     }
 }

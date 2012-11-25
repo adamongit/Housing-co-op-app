@@ -34,10 +34,12 @@
             this.btnCancel = new System.Windows.Forms.Button();
             this.lblContractorName = new System.Windows.Forms.Label();
             this.txtContractorName = new System.Windows.Forms.TextBox();
+            this.btnAdd = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cbAddresses
             // 
+            this.cbAddresses.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbAddresses.FormattingEnabled = true;
             this.cbAddresses.Location = new System.Drawing.Point(133, 71);
             this.cbAddresses.Name = "cbAddresses";
@@ -61,6 +63,7 @@
             this.btnSave.TabIndex = 9;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnCancel
             // 
@@ -89,6 +92,16 @@
             this.txtContractorName.Size = new System.Drawing.Size(270, 20);
             this.txtContractorName.TabIndex = 6;
             // 
+            // btnAdd
+            // 
+            this.btnAdd.Location = new System.Drawing.Point(409, 69);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(40, 23);
+            this.btnAdd.TabIndex = 12;
+            this.btnAdd.Text = "Add";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
             // ContractorForm
             // 
             this.AcceptButton = this.btnSave;
@@ -96,6 +109,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCancel;
             this.ClientSize = new System.Drawing.Size(452, 227);
+            this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.cbAddresses);
             this.Controls.Add(this.LblAddresses);
             this.Controls.Add(this.btnSave);
@@ -118,5 +132,6 @@
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Label lblContractorName;
         private System.Windows.Forms.TextBox txtContractorName;
+        private System.Windows.Forms.Button btnAdd;
     }
 }

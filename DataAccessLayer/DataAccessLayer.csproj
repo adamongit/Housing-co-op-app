@@ -42,6 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddressDataContext.cs" />
+    <Compile Include="ContractorAddressDataContext.cs" />
+    <Compile Include="ContractorDataContext.cs" />
     <Compile Include="MeetingDataContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">

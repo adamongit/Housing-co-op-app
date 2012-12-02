@@ -14,25 +14,28 @@ namespace HousingCoopAppWinForms
 {
     public partial class ContractorForm : Form
     {
-        private WindowOpenState WinState;
-
         /// <summary>
-        /// Initializes a new instance of the <see cref="ContractorForm" /> class.
+        /// The intended use for this instance of the form.
         /// </summary>
-        public ContractorForm()
-        {
-            this.WinState = WindowOpenState.View;
-            InitializeComponent();
-        }
+        private WindowOpenState WinState { get; set; }
+        /// <summary>
+        /// Gets or sets the contractor id to view.
+        /// </summary>
+        /// <value>
+        /// The contractor id to view.
+        /// </value>
+        public int ContractorIdToView { get; set; }
 
         /// <summary>
         /// Initializes a new instance of the <see cref="ContractorForm" /> class.
         /// </summary>
         /// <param name="windowState">State of the window.</param>
-        public ContractorForm(WindowOpenState windowState)
+        public ContractorForm(WindowOpenState windowState = WindowOpenState.View, int contractorIdToView = 0)
         {
             this.WinState = windowState;
+            this.ContractorIdToView = contractorIdToView;
             InitializeComponent();
+
         }
 
         private void ContractorForm_Load(object sender, EventArgs e)
@@ -60,7 +63,7 @@ namespace HousingCoopAppWinForms
         {
             ContractorDataContext cdc = new ContractorDataContext(
                 ConfigurationManager.ConnectionStrings["hamwicConnectionString"].ConnectionString);
-
+            
             Contractor c = new Contractor{
                 Name = txtContractorName.Text
             };
@@ -86,5 +89,6 @@ namespace HousingCoopAppWinForms
             }
                 
         }
+
     }
 }

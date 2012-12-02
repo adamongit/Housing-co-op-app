@@ -83,6 +83,7 @@
             this.Controls.Add(this.btnCancel);
             this.Name = "SubgroupForm";
             this.Text = "Subgroup";
+            this.Load += new System.EventHandler(this.SubgroupForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

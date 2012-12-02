@@ -34,6 +34,11 @@ namespace HousingCoopAppWinForms
             mf.ShowDialog();
         }
 
+        /// <summary>
+        /// Handles the Click event of the newToolStripMenuItem control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs" /> instance containing the event data.</param>
         private void newToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SubgroupForm sf = new SubgroupForm();
@@ -41,12 +46,30 @@ namespace HousingCoopAppWinForms
             sf.ShowDialog();
         }
 
+        /// <summary>
+        /// Handles the Click event of the newToolStripMenuItem1 control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs" /> instance containing the event data.</param>
         private void newToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             ContractorForm cf = new ContractorForm(WindowOpenState.New);
             cf.Owner = this;
             cf.ShowDialog();
         }
+
+        /// <summary>
+        /// Views the meetings menu item click.
+        /// </summary>
+        /// <param name="sender">The sender.</param>
+        /// <param name="e">The <see cref="EventArgs" /> instance containing the event data.</param>
+        private void ViewMeetingsMenuItemClick(object sender, EventArgs e)
+        {
+            MeetingsViewerForm mf = new MeetingsViewerForm();
+            mf.Owner = this;
+            mf.ShowDialog();
+        }
+
     }
 
     /// <summary>

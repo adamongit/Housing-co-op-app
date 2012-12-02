@@ -33,10 +33,11 @@
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.meetingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newMeetingMenutClick = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewMeetingsMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contractorsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.newToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.subgroupsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.newToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.msMainMenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,7 +71,8 @@
             // meetingsToolStripMenuItem
             // 
             this.meetingsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.newMeetingMenutClick});
+            this.newMeetingMenutClick,
+            this.viewMeetingsMenuItem});
             this.meetingsToolStripMenuItem.Name = "meetingsToolStripMenuItem";
             this.meetingsToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
             this.meetingsToolStripMenuItem.Text = "Meetings";
@@ -78,9 +80,16 @@
             // newMeetingMenutClick
             // 
             this.newMeetingMenutClick.Name = "newMeetingMenutClick";
-            this.newMeetingMenutClick.Size = new System.Drawing.Size(98, 22);
+            this.newMeetingMenutClick.Size = new System.Drawing.Size(152, 22);
             this.newMeetingMenutClick.Text = "New";
             this.newMeetingMenutClick.Click += new System.EventHandler(this.newMeetingMenuClick_Click);
+            // 
+            // viewMeetingsMenuItem
+            // 
+            this.viewMeetingsMenuItem.Name = "viewMeetingsMenuItem";
+            this.viewMeetingsMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.viewMeetingsMenuItem.Text = "View all";
+            this.viewMeetingsMenuItem.Click += new System.EventHandler(this.ViewMeetingsMenuItemClick);
             // 
             // contractorsToolStripMenuItem
             // 
@@ -89,6 +98,13 @@
             this.contractorsToolStripMenuItem.Name = "contractorsToolStripMenuItem";
             this.contractorsToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
             this.contractorsToolStripMenuItem.Text = "Contractors";
+            // 
+            // newToolStripMenuItem1
+            // 
+            this.newToolStripMenuItem1.Name = "newToolStripMenuItem1";
+            this.newToolStripMenuItem1.Size = new System.Drawing.Size(98, 22);
+            this.newToolStripMenuItem1.Text = "New";
+            this.newToolStripMenuItem1.Click += new System.EventHandler(this.newToolStripMenuItem1_Click);
             // 
             // subgroupsToolStripMenuItem
             // 
@@ -104,13 +120,6 @@
             this.newToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
             this.newToolStripMenuItem.Text = "New";
             this.newToolStripMenuItem.Click += new System.EventHandler(this.newToolStripMenuItem_Click);
-            // 
-            // newToolStripMenuItem1
-            // 
-            this.newToolStripMenuItem1.Name = "newToolStripMenuItem1";
-            this.newToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
-            this.newToolStripMenuItem1.Text = "New";
-            this.newToolStripMenuItem1.Click += new System.EventHandler(this.newToolStripMenuItem1_Click);
             // 
             // MainForm
             // 
@@ -140,6 +149,7 @@
         private System.Windows.Forms.ToolStripMenuItem subgroupsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem newToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem newToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem viewMeetingsMenuItem;
     }
 }
 

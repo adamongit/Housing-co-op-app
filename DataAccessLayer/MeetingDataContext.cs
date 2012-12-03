@@ -16,6 +16,7 @@ namespace DataAccessLayer
         }
 
         public Table<Meeting> Meetings;
+        public Table<Subgroup> Subgroups;
 
     }
 }

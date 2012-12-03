@@ -17,7 +17,7 @@ namespace HousingCoopAppWinForms
         /// <summary>
         /// Initializes a new instance of the <see cref="MeetingForm" /> class.
         /// </summary>
-        public MeetingForm()
+        public MeetingForm(WindowOpenState windowState = WindowOpenState.View, int meetingIdToView = 0)
         {
             InitializeComponent();
         }

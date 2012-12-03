@@ -56,6 +56,6 @@ namespace BusinessObjects
         /// The date time to.
         /// </value>
         [Column]
-        public DateTime DateTimeTo { get; set; }
+        public DateTime DateTimeTo { get; set; }        
     }
 }

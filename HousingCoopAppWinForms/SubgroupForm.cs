@@ -14,7 +14,7 @@ namespace HousingCoopAppWinForms
 {
     public partial class SubgroupForm : Form
     {
-        public SubgroupForm()
+        public SubgroupForm(WindowOpenState windowState = WindowOpenState.View, int subGroupIdToView = 0)
         {
             InitializeComponent();
         }
@@ -63,6 +63,11 @@ namespace HousingCoopAppWinForms
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Error);
             }
+        }
+
+        private void SubgroupForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
